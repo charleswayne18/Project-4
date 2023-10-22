@@ -1,5 +1,4 @@
 body {
-    height: 615px;
     width: 100%;
     margin: 0px;
 }
@@ -9,8 +8,131 @@ body {
     flex-direction: column;
 }
 
+.section0 {
+    background-image: url(./media/background\ section0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.top0 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.topspan {
+    color: #505F98;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 165px;
+    display: flex;
+    gap: 60px;
+}
+
+.land {
+    color: #37447E;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38px;
+}
+
+.top0 button {
+    width: 160px;
+    height: 26px;
+    background: #111b47;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    margin-right: 165px;
+    border: 0;
+}
+
+.bottom0 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 163px;
+    justify-content: space-between;
+}
+
+.bottom0-1 {
+    margin-top: 261px;
+}
+
+.bottom0 p {
+    color: #091133;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 66px; 
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.bottom0-1 span {
+    color: #505F98;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.twob {
+    display: flex;
+    gap: 30px;
+    margin-top: 69px;
+}
+
+.button1-1 {
+    width: 189px;
+    height: 36px;
+    background-color: #111B47;
+    border-radius: 2px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0;
+}
+
+.button1-2 {
+    width: 189px;
+    height: 36px;
+    border-radius: 2px;
+    border: 2px solid #091133;
+
+    color: #091133;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0;
+}
+
+.bottom0 img {
+    margin-top: 205px;
+}
+
 .section1{
     display: flex;
+    height: 615px;
 }
 
 .img1{
