@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 237px;
-    margin-bottom: 172px;
+    padding-bottom: 172px;
+    background-color: #E7ECFF;
 }
 
 .price {
@@ -82,9 +83,10 @@
 .footer {
     display: flex;
     flex-direction: column;
-    margin-left: 165px;
-    margin-top: 61px;
-    margin-right: 165px;
+    padding-left: 165px;
+    padding-top: 61px;
+    padding-right: 165px;
+    background-color: #E7ECFF;
 }
 
 .footer1 {
